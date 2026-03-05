@@ -1,0 +1,34 @@
+# Excel temporary lock files
+~$*.xls
+~$*.xlsx
+~$*.xlsm
+~$*.xlsb
+
+# Installers / large binaries
+*.exe
+*.msi
+*.zip
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Unrelated project files
+H2A_Expense_Report_App.html
+H2A_Test_Export.xlsx
+
+# Older workbook versions (keep v4 as current)
+Payroll_Workbook_WITH_SUMMARY.xlsm
+Payroll_Workbook_WITH_SUMMARY_v2.xlsm
+Payroll_Workbook_WITH_SUMMARY_v3.xlsm
+
+# Claude Code internal directory
+Claude_Code/
+
+# PowerShell scratch scripts
+examine3.ps1
+examine3_output.txt
+examine3b.ps1
+read_xlsm.ps1
+read_xlsm2.ps1
+run_excel_v4.ps1
